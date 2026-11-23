@@ -52,7 +52,14 @@ export const education = [
 export const skillGroups = [
   {
     title: "Apputveckling",
-    items: ["React Native", "Expo", "Swift", "SwiftUI", "Kotlin", "Jetpack Compose"],
+    items: [
+      "React Native",
+      "Expo",
+      "Swift",
+      "SwiftUI",
+      "Kotlin",
+      "Jetpack Compose",
+    ],
   },
   {
     title: "Språk och data",
@@ -60,7 +67,14 @@ export const skillGroups = [
   },
   {
     title: "Verktyg",
-    items: ["Git och GitHub", "Xcode", "Android Studio", "VS Code", "EAS Build", "App Store Connect"],
+    items: [
+      "Git och GitHub",
+      "Xcode",
+      "Android Studio",
+      "VS Code",
+      "EAS Build",
+      "App Store Connect",
+    ],
   },
 ];
 
@@ -85,8 +99,14 @@ export const projects: Project[] = [
       "bilder/tolkappen/anteckningar.jpg",
     ],
     links: [
-      { label: "App Store", url: "https://apps.apple.com/se/app/tolkappen/id6832765544" },
-      { label: "GitHub", url: "https://github.com/Isabella92t/Interpreting-lia" },
+      {
+        label: "App Store",
+        url: "https://apps.apple.com/se/app/tolkappen/id6832765544",
+      },
+      {
+        label: "GitHub",
+        url: "https://github.com/Isabella92t/Interpreting-lia",
+      },
     ],
   },
   {
@@ -98,7 +118,9 @@ export const projects: Project[] = [
       "En studieapp där man samlar flashcards och glosor i mappar och övar på dem i olika lägen.",
     ],
     images: ["bilder/studysmart/start.jpg"],
-    links: [{ label: "GitHub", url: "https://github.com/Isabella92t/StudySmart" }],
+    links: [
+      { label: "GitHub", url: "https://github.com/Isabella92t/StudySmart" },
+    ],
   },
   {
     title: "ParfymAppen",
@@ -106,12 +128,12 @@ export const projects: Project[] = [
     subtitle: "Androidapp för parfymskapare",
     tags: ["Kotlin", "Jetpack Compose", "Material 3"],
     description: [
-      "description: [
-  "En app där man samlar sina eteriska oljor i topp-, mellan- och basnoter och skapar egna doftrecept. Appen räknar ut fördelningen mellan noterna i procent, och de sparade parfymerna visas på en egen hylla.",
-  "Grupparbete tillsammans med Catharina Jaunviksna. Min gruppmedlem kom med idén och ansvarade för informationssidan. Jag ansvarade för utvecklingen av appens övriga funktioner.",
-],",
+      "En app där man samlar sina eteriska oljor i topp-, mellan- och basnoter och skapar egna doftrecept. Appen räknar ut fördelningen mellan noterna i procent, och de sparade parfymerna visas på en egen hylla.",
+      "Grupparbete tillsammans med Catharina Jaunviksna. Min gruppmedlem kom med idén och ansvarade för informationssidan. Jag ansvarade för utvecklingen av appens övriga funktioner.",
     ],
     images: ["bilder/parfymappen/framsida.jpg"],
-    links: [{ label: "GitHub", url: "https://github.com/Isabella92t/parfym-appen" }],
+    links: [
+      { label: "GitHub", url: "https://github.com/Isabella92t/parfym-appen" },
+    ],
   },
 ];
