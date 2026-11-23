@@ -106,7 +106,10 @@ export const projects: Project[] = [
     subtitle: "Androidapp för parfymskapare",
     tags: ["Kotlin", "Jetpack Compose", "Material 3"],
     description: [
-      "En app där man samlar sina eteriska oljor i topp-, mellan- och basnoter och skapar egna doftrecept. Appen räknar ut fördelningen mellan noterna i procent, och de sparade parfymerna visas på en egen hylla.",
+      "description: [
+  "En app där man samlar sina eteriska oljor i topp-, mellan- och basnoter och skapar egna doftrecept. Appen räknar ut fördelningen mellan noterna i procent, och de sparade parfymerna visas på en egen hylla.",
+  "Grupparbete tillsammans med Catharina Jaunviksna. Min gruppmedlem kom med idén och ansvarade för informationssidan. Jag ansvarade för utvecklingen av appens övriga funktioner.",
+],",
     ],
     images: ["bilder/parfymappen/framsida.jpg"],
     links: [{ label: "GitHub", url: "https://github.com/Isabella92t/parfym-appen" }],
